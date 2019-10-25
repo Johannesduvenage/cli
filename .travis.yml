@@ -40,7 +40,7 @@ matrix:
     # only run one test on Windows, because it's hella slow
     - node_js: "12"
       os: "windows"
-      env: "DEPLOY_VERSION=testing"
+      env: "DEPLOY_VERSION=testing GATSBY_IS_STATIC=true"
 
 notifications:
     slack: npm-inc:kRqQjto7YbINqHPb1X6nS3g8
