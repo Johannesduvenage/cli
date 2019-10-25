@@ -4,7 +4,7 @@ import Features from 'src/components/home/Features'
 import SEO from 'src/components/seo'
 import Hero from 'src/components/home/Hero'
 import DarkBlock from 'src/components/home/DarkBlock'
-import Footer from 'src/components/home/footer'
+import Footer from 'src/components/home/Footer'
 import {ThemeProvider} from 'styled-components'
 import {theme} from 'src/theme'
 
